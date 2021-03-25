@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-leak
+  labels:
+    app: python-leak
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-leak
+  template:
+    metadata:
+      labels:
+        app: python-leak
+    spec:
+      containers:
+      - name: python-leak
+        image: krewh/python-leak:master
+        resources:
+          requests:
+            memory: 2Gi
+            cpu: 250m
+          limits:
+            memory: 4Gi
+            cpu: 500m
