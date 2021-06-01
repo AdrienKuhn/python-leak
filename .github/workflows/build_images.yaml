@@ -46,6 +46,7 @@ jobs:
           fi
 
           # Set output parameters.
+          echo ${DOCKER_IMAGE}:${TAGS}
           echo ::set-output name=tags::${TAGS}
           echo ::set-output name=docker_image::${DOCKER_IMAGE}
 
