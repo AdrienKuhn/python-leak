@@ -1,6 +1,6 @@
-FROM alpine:3
+FROM alpine:3.13
 
-RUN apk add --update python \
+RUN apk add --update python3 \
   && rm -rf /var/cache/apk/*
 
 COPY leak.py /
