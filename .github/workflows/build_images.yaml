@@ -6,14 +6,10 @@ on:
     tags:
       - '*'
     branches:
-      - master
       - main
-      - develop
   pull_request:
     branches:
-      - master
       - main
-      - develop
 
 jobs:
   docker:
