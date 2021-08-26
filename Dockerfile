@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.14.1
 
 RUN apk add --update python3 \
   && rm -rf /var/cache/apk/*
