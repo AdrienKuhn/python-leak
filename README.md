@@ -1,5 +1,7 @@
 # docker-python-leak
 
+[![CircleCI](https://circleci.com/gh/AdrienKuhn/python-leak/tree/main.svg?style=shield&circle-token=81e828d3e020ee2a089b36855fad5d05ba5d62d1)](https://circleci.com/gh/AdrienKuhn/python-leak/tree/main)
+
 ## Usage
 
 ### Docker images
