@@ -1,0 +1,6 @@
+# https://github.com/blog/2392-introducing-code-owners.
+# Each line is a file pattern followed by one or more owners.
+# Order is important. The last matching pattern has the most precedence.
+
+# Global
+*           @AdrienKuhn
