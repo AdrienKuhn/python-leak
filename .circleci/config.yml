@@ -120,7 +120,7 @@ jobs:
   # Build for multiarch and push
   build-and-push:
     docker:
-      - image: cimg/base:2025.12
+      - image: cimg/base:2026.01
         auth:
           username: $DOCKERHUB_USER
           password: $DOCKERHUB_PASS
@@ -137,7 +137,7 @@ jobs:
   # Refresh the last release docker image
   refresh-release:
     docker:
-      - image: cimg/base:2025.12
+      - image: cimg/base:2026.01
         auth:
           username: $DOCKERHUB_USER
           password: $DOCKERHUB_PASS
@@ -156,7 +156,7 @@ jobs:
   # Create GitHub release
   create-release:
     docker:
-      - image: cimg/base:2025.12
+      - image: cimg/base:2026.01
         auth:
           username: $DOCKERHUB_USER
           password: $DOCKERHUB_PASS
