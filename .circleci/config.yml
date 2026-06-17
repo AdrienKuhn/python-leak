@@ -19,7 +19,7 @@ parameters:
     type: string
 
 orbs:
-  gh: circleci/github-cli@2.7.2
+  gh: circleci/github-cli@3.0.0
 
 commands:
   # Login to Docker Hub
